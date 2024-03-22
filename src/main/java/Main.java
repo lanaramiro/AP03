@@ -25,6 +25,14 @@ public class Main {
     Diesel dieselqtd = new Diesel();
     dieselqtd.quantidadeCombustivel = 30;
     dieselqtd.abastecerPorLitro();
+
+    Alcool Alcoolvalor = new Alcool();
+    Alcoolvalor.valorLitro = 75;
+    Alcoolvalor.abastecerPorValor();
+
+    Alcool Alcoolqtd = new Alcool();
+    Alcoolqtd.quantidadeCombustivel = 30;
+    Alcoolqtd.abastecerPorLitro();
   }
 
 }
